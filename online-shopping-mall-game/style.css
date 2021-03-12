@@ -1,0 +1,91 @@
+:root {
+  /* color */
+  --black-color: #373c44;
+  --blue-color: #347dbb;
+  --yellow-color: #fab624;
+  --pink-color: #fd7479;
+  --white-color: #ffffff;
+
+  /* size */
+  --button-size: 60px;
+  --font-size: 18px;
+  --thumbnail-size: 50px;
+  --border-radius: 4px;
+  --base-space: 8px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black-color);
+  height: 100vh;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: var(--black-color);
+  margin-right: var(--base-space);
+}
+
+.buttons img {
+  width: var(--button-size);
+  height: var(--button-size);
+}
+
+.buttons .colorBtn {
+  width: var(--button-size);
+  height: var(--button-size);
+  font-size: var(--font-size);
+  border-radius: var(--border-radius);
+}
+
+.buttons .blue {
+  background-color: var(--blue-color);
+}
+
+.buttons .yellow {
+  background-color: var(--yellow-color);
+}
+
+.buttons .pink {
+  background-color: var(--pink-color);
+}
+
+.items {
+  width: 60%;
+  height: 60%;
+  list-style: none;
+  overflow-y: auto;
+}
+
+.items .item {
+  display: flex;
+  align-items: center;
+  padding: var(--base-space);
+  background-color: var(--white-color);
+  margin-bottom: var(--base-space);
+}
+
+.items .thumbnail {
+  width: var(--thumbnail-size);
+  height: var(--thumbnail-size);
+  margin-left: var(--base-space);
+  margin-right: var(--base-space);
+}
+
+.items .itemDescription {
+  font-size: var(--font-size);
+}

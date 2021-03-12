@@ -9,6 +9,11 @@
 6시간 ~ 8시간
 
 ## 결과물
-### * 로고 클릭 시
-![image](https://user-images.githubusercontent.com/59829606/110913150-1c4b7500-8358-11eb-9f5b-af1e84e2ea71.png)
-### * 로고 클릭 시
+* 로고 클릭(기본 화면)
+![image](https://user-images.githubusercontent.com/59829606/110913273-44d36f00-8358-11eb-92fd-c6092a914bf3.png)
+
+* 옷 종류 버튼 클릭
+![image](https://user-images.githubusercontent.com/59829606/110913244-3ab17080-8358-11eb-856f-0286d01b4968.png)
+
+* 옷 색깔 버튼 클릭
+![image](https://user-images.githubusercontent.com/59829606/110913308-4f8e0400-8358-11eb-9633-6ac639073252.png)
